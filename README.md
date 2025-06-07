@@ -1,3 +1,5 @@
+# Tugas-Program-Komnum-A05
+
 |	NRP 	|  	Name  	|
 | :--------: | :------------: |
 | 5025241106 | Joaquin Fairuz Nawfal Ismono |
@@ -5,7 +7,7 @@
 | 5025241112 | Dafa Kumara Sahasika |
 | 5025241114 | Hasan Abdurrahman |
 
-# Tugas Program Komputasi Numerik A05
+# Nomor Soal: 21
 
 **Langkah Pengerjaan Soal No. 21:**
 
@@ -44,17 +46,17 @@ for i in range(max_iter):
     A2 = A[1]
 
     if a0 == 0:
-            b0 = 0
-        else:
-            b0 = round(A0 / a0, 2)
+        b0 = 0
+    else:
+        b0 = round(A0 / a0, 2)
 
-        a1 = round(A2 - b0, 2)
-        a0 = round(A1 - b0 * a1, 2)
+    a1 = round(A2 - b0, 2)
+    a0 = round(A1 - b0 * a1, 2)
 
-        print(f"Iterasi ke-{i+1}:")
-        print(f"  b0 = A0 / a0 = {A0} / {a0} = {b0:.2f}")
-        print(f"  a1 = A2 - b0 = {A2} - {b0} = {a1:.2f}")
-        print(f"  a0 = A1 - a1 * b0 = {A1} - {a1} * {b0} = {a0:.2f}\n")
+    print(f"Iterasi ke-{i+1}:")
+    print(f"  b0 = A0 / a0 = {A0} / {a0} = {b0:.2f}")
+    print(f"  a1 = A2 - b0 = {A2} - {b0} = {a1:.2f}")
+    print(f"  a0 = A1 - a1 * b0 = {A1} - {a1} * {b0} = {a0:.2f}\n")
 ```
 
 5. Bulatkan hasil iterasi dan simpan sebagai `f(x) = (x + b0)(x^2 + a1x + a0)`
