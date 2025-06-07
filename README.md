@@ -1,4 +1,3 @@
-# Numerical-Computation-Final-Project-Sem2
 
 |	NRP 	|  	Name  	|
 | :--------: | :------------: |
