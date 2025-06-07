@@ -1,4 +1,3 @@
-
 |	NRP 	|  	Name  	|
 | :--------: | :------------: |
 | 5025241106 | Joaquin Fairuz Nawfal Ismono |
