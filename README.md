@@ -9,7 +9,7 @@
 
 **Langkah Pengerjaan Soal No. 21:**
 
-1. Import fungsi-fungsi yang ada di library numpy, dan juga sympy untuk memanipulasi simbol-simbol polinomial dan aljabar.
+1. Import fungsi-fungsi yang ada di library `numpy`, dan juga `sympy` untuk memanipulasi simbol-simbol polinomial dan aljabar.
 
 ```
 import numpy as np
@@ -57,7 +57,7 @@ for i in range(max_iter):
         print(f"  a0 = A1 - a1 * b0 = {A1} - {a1} * {b0} = {a0:.2f}\n")
 ```
 
-5. Bulatkan hasil iterasi dan simpan sebagai f(x) = (x + b0)(x^2 + a1x + a0)
+5. Bulatkan hasil iterasi dan simpan sebagai `f(x) = (x + b0)(x^2 + a1x + a0)`
 ```
 b0_res = round(b0)
 a1_res = round(a1)
@@ -93,7 +93,7 @@ print(f"x2 = {x2}")
 print(f"x3 = {x3}")
 ```
 
-7. Terima inputan dari pengguna
+7. Terima inputan dari pengguna, lalu gunakan fungsi untuk menghitung hasil (untuk soal 21, ada di command `#Example Usage`)
 ```
 f = input("Enter the function f(x) in terms of x: ")
 f = sympify(f)
